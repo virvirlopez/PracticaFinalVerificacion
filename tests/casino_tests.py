@@ -1,9 +1,9 @@
 import unittest
-from Casino import Casino
+from casino.casino import Casino
 from mock import Mock
 
 
-class UniTest(unittest.TestCase):
+class CasinoTests(unittest.TestCase):
 
     def setUp(self):
         pass
