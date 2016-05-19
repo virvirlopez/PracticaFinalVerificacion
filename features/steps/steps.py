@@ -1,6 +1,8 @@
 from lettuce import *
-from Casino import Casino
 from nose.tools import assert_true
+
+from casino.casino import Casino
+
 
 @step(u'My name is ([^\s]+) and my money is ([^\s]+)')
 def addUser(step, name, money):
