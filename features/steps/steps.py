@@ -1,7 +1,7 @@
 from lettuce import *
 from nose.tools import assert_true
 
-from casino.casino import Casino
+from casino.Casino import Casino
 
 
 @step(u'My name is ([^\s]+) and my money is ([^\s]+)')
