@@ -1,5 +1,5 @@
 import unittest
-from casino.casino import Casino
+from casino.Casino import Casino
 from mock import Mock
 
 
